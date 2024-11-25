@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Table</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      caption {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Thông Tin Nhân Viên
+      </caption>
+      <tr>
+        <th rowspan="2">Mã NV</th>
+        <th rowspan="2">Họ và Tên</th>
+        <th colspan="3">Thu Nhập</th>
+      </tr>
+      <tr>
+        <th>Lương</th>
+        <th>Thưởng</th>
+        <th>Phụ cấp</th>
+      </tr>
+      <tr>
+        <td>NV101</td>
+        <td>Nguyễn Văn A</td>
+        <td>500.000</td>
+        <td>500.000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>NV102</td>
+        <td>Nguyễn Văn B</td>
+        <td>500.000</td>
+        <td>600.000</td>
+        <td>100.000</td>
+      </tr>
+      <tr>
+        <td>NV103</td>
+        <td>Nguyễn Văn C</td>
+        <td>500.000</td>
+        <td>600.000</td>
+        <td>200.000</td>
+      </tr>
+    </table>
+  </body>
+</html>
